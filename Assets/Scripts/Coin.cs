@@ -1,8 +1,14 @@
 using UnityEngine;
 
-public class PlayerTest : MonoBehaviour
+public class Coin : MonoBehaviour
 {
-    public float speed;
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("Player"))
+        {
+            Destroy(gameObject);
+        }
+    }
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -13,6 +19,6 @@ public class PlayerTest : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Translate(new Vector3(0,0,speed * Time.deltaTime));
+        
     }
 }
