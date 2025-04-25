@@ -11,6 +11,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/TelaJogo.unity
     guid: b1a78e585d6a80648b941581bffb46fa
+  - enabled: 1
+    path: Assets/Scenes/TelaFinal.unity
+    guid: 227af23b0dcf1b145895c31fc7332efd
+  - enabled: 0
+    path: Assets/Scenes/TelaPause.unity
+    guid: 7b644bbacd20b3340874dca2d240dadb
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0
