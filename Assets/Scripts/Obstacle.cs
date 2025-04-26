@@ -2,11 +2,11 @@ using UnityEngine;
 
 public class Obstacle : MonoBehaviour
 {
-    PlayerTest playerMovement;
+    player_data playerMovement;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        playerMovement = GameObject.FindObjectOfType<PlayerTest>();
+        playerMovement = GameObject.FindObjectOfType<player_data>();
     }
 
     private void OnCollisionEnter(Collision collision)
