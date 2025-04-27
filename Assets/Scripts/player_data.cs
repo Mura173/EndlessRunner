@@ -106,6 +106,6 @@ public class player_data : MonoBehaviour
     {
         alive = false;
         //Restart the game
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        SceneManager.LoadScene(2);
     }
 }
